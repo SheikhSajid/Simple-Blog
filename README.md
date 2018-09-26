@@ -1,6 +1,6 @@
 # Simple Blog
 
-## A simple blog application built using the MERN stack.
+A simple blog application built using the MERN stack.
 
 ## Front-End
 
@@ -21,6 +21,5 @@ The mongo database is hosted on mLab's servers.
 
 ## Build Tools:
 
-- Parcel
-  Parcel was used instead of Webpack because it provides zero-config support for
+- Parcel. Parcel was used instead of Webpack because it provides zero-config support for
   React, Bundling, Code Splitting, Hot Module Reload, Server-Side Rendering etc.
