@@ -17,6 +17,7 @@ The mongo database is hosted on mLab's servers.
 **npm packages used:**
 
 - Express
+- body-parser
 - mongodb
 
 ## Build Tools:
