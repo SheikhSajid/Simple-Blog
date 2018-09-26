@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  border-top: 10px #8bdeff solid;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+nav {
+  /* padding: 10px; */
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px rgba(224, 224, 224, 0.933) solid;
+}
+
+nav span {
+  margin-bottom: 10px yellow solid;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  overflow: auto;
+}
+
+.header {
+  display: flex;
+}
+
+.delete-post-link {
+  margin-left: auto;
+}
+
+.post {
+  border-top: 8px #8bdeff solid;
+  margin-bottom: 50px;
+}
+
+.posts {
+  width: 700px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-top: 1px #8bdeff dashed;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.comment-form {
+  width: 100%;
+}
+
+textarea,
+input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+}
+
+.comment-button {
+  border: 0;
+  background-color: #70d1f7;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 0.5rem;
+  width: auto;
+}
+
+.error {
+  position: fixed;
+  top: 35px;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: #f06060;
+  color: #ffffff;
+}
+
+.post-form {
+  flex-basis: 100%;
+}
+
+.newpost-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  margin-bottom: 10px;
+}
+
+.timestamp {
+  border-bottom: #495057 dashed 1px;
+  margin-bottom: 5px;
+  color: #868585;
+}
+
+button {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  color: rgb(194, 2, 2);
+  cursor: pointer;
+}
+
+.comment-timestamp {
+  color: #868585;
+  font-size: 0.75rem;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 720px) {
+  .newpost-form-container,
+  .posts {
+    width: 95%;
+  }
+}

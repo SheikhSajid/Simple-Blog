@@ -1,0 +1,34 @@
+{
+  "name": "simple-blog",
+  "version": "0.1.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheikhSajid/simple-blog"
+  },
+  "author": "Sk. Sajidul Kadir",
+  "license": "ISC",
+  "bugs": {
+    "url": "/issues"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.6.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "parcel-bundler": "^1.9.7"
+  },
+  "dependencies": {
+    "petfinder-client": "0.0.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
